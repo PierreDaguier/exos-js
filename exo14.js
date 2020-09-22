@@ -28,7 +28,7 @@
 
         // Ici on insère la monnaie. Prix à payer est réinitialisé à chaque insertion de monnaie (matérialisé ici par la boucle while.
         while (true){
-            prix_à_payer=monnaie-prix_à_payer
+            prix_à_payer=prix_à_payer-monnaie
             if (monnaie>prix_à_payer)
                 {return console.log(`La boisson est délivrée et la machine vous rend ${monnaie-prix_à_payer} €`)}
             else if(monnaie==prix_à_payer)
