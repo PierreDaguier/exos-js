@@ -33,7 +33,7 @@
                 {return console.log(`La boisson est délivrée et la machine vous rend ${monnaie-prix_à_payer} €`)}
             else if(monnaie==prix_à_payer)
                 {return console.log('La boisson est délivrée')}
-            else {return console.log(`Il vous reste ${prix_à_payer}€ à insérer dans la machine`)}
+            else {console.log(`Il vous reste ${prix_à_payer}€ à insérer dans la machine`)}
 
         }
 
